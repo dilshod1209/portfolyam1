@@ -1,0 +1,107 @@
+.cantenir{
+    height: 800px;
+    margin: 0 auto;
+    width: 1200px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(168,25,20,1) 72%, rgba(252,176,69,1) 100%);
+}
+.malumot{
+    height: 600px;
+    width: 70%;
+    border-right: 5px solid rgb(22, 130, 193);
+}
+.malumot h1{
+    
+        animation: slideDown 2s ease-out; /* Animatsiyani qo'llash */
+        font-size: 2.5em;
+        color: #071922;
+        text-align: center;
+    
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100px); /* Tepadagi boshlang'ich nuqta */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Oxirgi nuqta */
+        opacity: 1;
+    }
+}
+.shaxsiy_malumot{
+    height: 600px;
+    width: 40%;
+}
+.rasm{
+    height: 600px;
+    width: 40%;
+}
+.rasm button{
+    background-image: url(./214-512.webp);
+    height: 172px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    border: none;
+    margin: 15%;
+    margin-left: 130%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.rasm label{
+    display: flex;
+    gap: 10px;
+}
+.rasm label p{
+    flex-direction: column;
+    color: black;
+}
+.shedevr label{
+    display: flex;
+    gap: 10px;
+    margin-left: 10%;
+}
+.shedevr label p{
+    font-size: 24px;
+    text-shadow: 10px 2px 5px rgba(16, 3, 3, 0.5);
+    font-style: italic;
+    color: black;
+}
+.shedevr2{
+    display: flex;
+}
+.shedevr3{
+    display: flex;
+    gap: 100px;
+}
+.shedevr4{
+    display: flex;
+    gap: 150px;
+}
+h2{
+    font-size: 2em;
+    font-style: italic;
+    margin-left: 30%;
+}  
+.tarmoq label{
+    margin-left: 13%;
+    font-size: 24px;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+.tajriba{
+    border: 1px solid;
+    margin-top: 10%;
+    width: 90%;
+    background: rgb(54,65,71);
+    background: linear-gradient(171deg, rgba(54,65,71,1) 0%, rgba(44,201,213,1) 100%);
+    border-radius: 15px;
+    margin-left: 5%;
+}
+.tajriba p{
+    font-size: 24px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    text-align: center;
+}
